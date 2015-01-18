@@ -1,0 +1,77 @@
+Could be useful for prototyping cross browser/mobile
+http://foundation.zurb.com/docs/index.php
+http://twitter.github.com/bootstrap/#layouts
+
+Will need for referrence for pretty urls
+http://coding.smashingmagazine.com/2011/11/02/introduction-to-url-rewriting/
+http://net.tutsplus.com/tutorials/other/using-htaccess-files-for-pretty-urls/
+http://www.evolt.org/Making_clean_URLs_with_Apache_and_PHP
+http://www.alistapart.com/articles/succeed/
+http://stackoverflow.com/questions/5796248/pretty-urls-from-database
+
+
+Useful
+http://www.smashingmagazine.com/2011/10/28/useful-coding-workflow-tools-for-web-designers-developers/
+
+
+JACKPOT
+http://sportslogos.net/sport.php?id=1
+
+
+
+
+// SQL ISSUES
+http://tech.chitgoks.com/2009/02/22/mysql-using-column-name-inside-the-like-keyword/
+
+
+
+// mobile redirect if needed
+	<script type="text/javascript">
+		
+		// if there's NO ip redirect them to the default mobile site
+		if(<? echo $ul->getIpAddress(); ?>  == false){
+				
+			// if on a mobile device redirect to our mobile site
+			// comment back in when ready
+			if((navigator.userAgent.match(/iPhone/i))||
+			(navigator.userAgent.match(/iPad/i))||
+			(navigator.userAgent.match(/droid/i))||
+			(navigator.userAgent.match(/kindle/i))||
+			(navigator.userAgent.match(/mot/i))||
+			(navigator.userAgent.match(/blackberry/i))||
+			(navigator.userAgent.match(/iPod/i))){
+				if (document.cookie.indexOf("iphone_redirect=false") == -1){
+				
+					// window.location = "http://mobile.isthereagameon.com";
+					// or
+					// window.location = "http://isthereagameon.com/mobile";
+				
+				}
+			}
+		
+		}
+		
+	</script>
+	
+//NHL SCORES
+// Save this real time
+http://www.nhl.com/ice/scores.htm?date=01/14/2012
+	
+	
+// NBA SCHEDULE	
+http://www.thescore.com/nba/teams
+http://www.nba.com/schedules/national_tv_schedule/index.html
+http://www.nba.com/schedules/national_tv_schedule/index.html
+
+
+// MLB Games
+http://www.thescore.com/mlb/teams
+http://www.thescore.com/mlb/events?date=2012-03-25
+
+// Nippon Professional Baseball
+http://www.npb.or.jp/eng/
+
+
+
+//jquery cookie
+https://github.com/carhartl/jquery-cookie/blob/master/jquery.cookie.js
